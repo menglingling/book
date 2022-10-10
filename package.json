@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menglingling/book.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vuepress": "^1.9.7"
+  "bugs": {
+    "url": "https://github.com/menglingling/book/issues"
+  },
+  "homepage": "https://github.com/menglingling/book#readme",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.17",
+    "vue": "^3.2.40"
   }
 }
