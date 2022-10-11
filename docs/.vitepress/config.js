@@ -27,6 +27,8 @@ export default {
             text: '深拷贝浅拷贝的区别',
             link: '/javascript/copy',
           },
+          { text: '闭包', link: '/javascript/closure' },
+          { text: '作用域', link: '/javascript/scope' },
         ],
       },
       {
