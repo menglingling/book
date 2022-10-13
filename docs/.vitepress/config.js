@@ -29,6 +29,7 @@ export default {
           },
           { text: '闭包', link: '/javascript/closure' },
           { text: '作用域', link: '/javascript/scope' },
+          { text: '原型', link: '/javascript/prototype' },
         ],
       },
       {
