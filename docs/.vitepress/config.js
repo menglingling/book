@@ -32,6 +32,7 @@ export default {
           { text: '原型', link: '/javascript/prototype' },
           { text: 'JS创建对象的几种模式', link: '/javascript/createObj' },
           { text: '继承的几种方式', link: '/javascript/inherit' },
+          { text: '类', link: '/javascript/class' },
         ],
       },
       {

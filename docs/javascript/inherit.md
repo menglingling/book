@@ -107,8 +107,9 @@ SubType.prototype.sayAge = function () {
 };
 ```
 
+- 寄生式组合继承的基本模式如下所示：
+
 ```javascript
-//寄生式组合继承的基本模式如下所示：
 function inheritPrototype(subType, superType) {
   let prototype = object(superType.prototype); // 创建对象
   prototype.constructor = subType; // 增强对象
