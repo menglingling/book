@@ -30,6 +30,7 @@ export default {
           { text: '闭包', link: '/javascript/closure' },
           { text: '作用域', link: '/javascript/scope' },
           { text: '原型', link: '/javascript/prototype' },
+          { text: 'JS创建对象的几种模式', link: '/javascript/createObj' },
         ],
       },
       {
