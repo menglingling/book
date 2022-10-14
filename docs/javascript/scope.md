@@ -4,7 +4,7 @@
 
 简而言之：变量和表达式可见或可被引用的的执行上下文范围（The scope is the current context of execution in which values and expressions are "visible" or can be referenced.from mdn）
 
-## JS 的作用域分类：
+## JS 的作用域分类
 
 - 全局作用域（Global scope: The default scope for all code running in script mode.）
 - 模块作用域（Module scope: The scope for code running in module mode.）

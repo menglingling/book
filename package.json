@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/menglingling/book#readme",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.17",
     "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.20"
   }
 }

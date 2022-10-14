@@ -3,6 +3,7 @@ export default {
   description: 'Just playing around.',
   themeConfig: {
     logo: '/logo.png',
+    outline: [2, 6],
     nav: [
       {
         text: 'javascript',
