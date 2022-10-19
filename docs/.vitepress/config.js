@@ -34,6 +34,8 @@ export default {
           { text: 'JS创建对象的几种模式', link: '/javascript/createObj' },
           { text: '继承的几种方式', link: '/javascript/inherit' },
           { text: '类', link: '/javascript/class' },
+          { text: '迭代器', link: '/javascript/iteration' },
+          { text: '生成器', link: '/javascript/generator' },
         ],
       },
       {
