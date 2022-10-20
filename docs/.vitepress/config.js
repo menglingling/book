@@ -1,4 +1,5 @@
 export default {
+  base: '/',
   title: '我的小书',
   description: 'Just playing around.',
   themeConfig: {
@@ -36,7 +37,13 @@ export default {
           { text: '类', link: '/javascript/class' },
           { text: '迭代器', link: '/javascript/iteration' },
           { text: '生成器', link: '/javascript/generator' },
+          { text: '代理', link: '/javascript/proxy/proxy' },
+          { text: '反射', link: '/javascript/reflect/reflect' },
         ],
+      },
+      {
+        text: 'designPatterns',
+        items: [{ text: '迭代器模式', link: '/designPatterns/Iterator' }],
       },
       {
         text: 'other',
