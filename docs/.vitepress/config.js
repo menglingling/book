@@ -39,11 +39,15 @@ export default {
           { text: '生成器', link: '/javascript/generator' },
           { text: '代理', link: '/javascript/proxy/proxy' },
           { text: '反射', link: '/javascript/reflect/reflect' },
+          { text: '期约与异步函数', link: '/javascript/promise/promise' },
         ],
       },
       {
         text: 'designPatterns',
-        items: [{ text: '迭代器模式', link: '/designPatterns/Iterator' }],
+        items: [
+          { text: '迭代器模式', link: '/designPatterns/Iterator' },
+          { text: '代理模式', link: '/designPatterns/proxy' },
+        ],
       },
       {
         text: 'other',
