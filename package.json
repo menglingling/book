@@ -8,11 +8,8 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/menglingling/book.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/menglingling/book.git",
+  "author": "menglingling <1023904039@qq.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/menglingling/book/issues"
