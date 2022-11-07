@@ -1,5 +1,5 @@
 export default {
-  base: '/',
+  base: '/book/',
   title: '我的小书',
   description: 'Just playing around.',
   themeConfig: {
