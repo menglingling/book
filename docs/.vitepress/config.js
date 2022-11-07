@@ -24,7 +24,7 @@ export default {
           { text: '数组常用方法', link: '/javascript/array' },
           { text: '字符串常用方法', link: '/javascript/string' },
           { text: 'JavaScript 转换机制', link: '/javascript/type_convert' },
-          { text: '== 和 === 的区别', link: '/javascript/==&&===' },
+          { text: '== 和 === 的区别', link: '/javascript/equal' },
           {
             text: '深拷贝浅拷贝的区别',
             link: '/javascript/copy',
