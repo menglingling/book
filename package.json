@@ -1,24 +1,13 @@
 {
-  "name": "book",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "repository": "git+https://github.com/menglingling/book.git",
-  "author": "menglingling <1023904039@qq.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/menglingling/book/issues"
-  },
-  "homepage": "https://github.com/menglingling/book#readme",
-  "dependencies": {
-    "vue": "^3.2.40"
-  },
+  "name": "book",
+  "packageManager": "yarn@3.2.4",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.20"
+    "vitepress": "^1.0.0-alpha.27",
+    "vue": "^3.2.41"
   }
 }
