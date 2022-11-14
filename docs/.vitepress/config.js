@@ -18,6 +18,10 @@ export default {
 
     sidebar: [
       {
+        text: "css",
+        items: [{ text: "BFC", link: "/css/bfc" }],
+      },
+      {
         text: "javascript",
         items: [
           { text: "数据类型", link: "/javascript/data_type" },
