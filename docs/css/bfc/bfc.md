@@ -2,6 +2,12 @@
 
 BFC 即块级格式化上下文，页面渲染的独立容器，有自己的渲染特性。
 
+CSS 中有的一些 formart context:
+block context
+inline context
+flex context
+grid context
+
 ## BFC 的应用
 
 - **相邻两个 BFC 内的元素 margin 不会重叠**  
@@ -21,7 +27,7 @@ BFC 即块级格式化上下文，页面渲染的独立容器，有自己的渲�
 
 这个直接记应用更实际，能联想出特性。
 
-## 触发条件
+## establish 条件
 
 只例举最常见的：
 

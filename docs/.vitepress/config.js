@@ -19,7 +19,11 @@ export default {
     sidebar: [
       {
         text: "css",
-        items: [{ text: "BFC", link: "/css/bfc" }],
+        items: [
+          { text: "BFC", link: "/css/bfc/bfc" },
+          { text: "居中", link: "/css/center/center" },
+          { text: "重排", link: "/css/relayout/relayout" },
+        ],
       },
       {
         text: "javascript",

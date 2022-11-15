@@ -2,9 +2,11 @@
 
 ## 定义
 
-- 闭包是可以访问另一个函数作用域中变量的函数，通常通过函数嵌套来实现（ Closures
+- 闭包的历史：闭包是一种计算机概念，包含环境和控制两部分 （闭包=环境+控制），在 Javascript 中通过函数能够访问定义时环境中的变量来实现。
+- 红皮书:闭包是可以访问另一个函数作用域中变量的函数，通常通过函数嵌套来实现（ Closures
   are functions that have access to variables from another function’s scope. This is often accomplished
   by creating a function inside a function. from JSPDF）
+- 具体的实现方式例如下方：
 
   ```javascript
   function outerFunc() {

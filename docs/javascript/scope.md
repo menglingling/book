@@ -11,7 +11,7 @@
 - 函数作用域：（Function scope: The scope created with a function.）
 - 块作用域：（Block scope: The scope created with a pair of curly braces (a block).）
 
-## 作用域链
+## 作用域链 scope chain = environment record(环境记录)
 
 - 每个函数调用都有自己的上下文。当代码执行流进入函数时，函数的上下文被推到一个上下文栈上。
   在函数执行完之后，上下文栈会弹出该函数上下文，将控制权返还给之前的执行上下文。ECMAScript
