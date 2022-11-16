@@ -23,6 +23,7 @@ export default {
           { text: "BFC", link: "/css/bfc/bfc" },
           { text: "居中", link: "/css/center/center" },
           { text: "多栏布局", link: "/css/layout/layout" },
+          { text: "flex", link: "/css/flex/flex" },
           { text: "重排", link: "/css/relayout/relayout" },
         ],
       },
