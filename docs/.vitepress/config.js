@@ -20,6 +20,7 @@ export default {
       {
         text: "css",
         items: [
+          { text: "浏览器如何工作的", link: "/css/browser/browser" },
           { text: "BFC", link: "/css/bfc/bfc" },
           { text: "居中", link: "/css/center/center" },
           { text: "多栏布局", link: "/css/layout/layout" },
