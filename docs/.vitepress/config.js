@@ -18,11 +18,18 @@ export default {
 
     sidebar: [
       {
+        text: "web",
+        items: [
+          { text: "浏览器如何工作的", link: "/web/browser/browser" },
+          { text: "web 性能", link: "/web/performance/performance" },
+        ],
+      },
+      {
         text: "css",
         items: [
-          { text: "浏览器如何工作的", link: "/css/browser/browser" },
           { text: "BFC", link: "/css/bfc/bfc" },
           { text: "居中", link: "/css/center/center" },
+          { text: "文本溢出", link: "/css/textOverflow/textOverflow" },
           { text: "多栏布局", link: "/css/layout/layout" },
           { text: "flex", link: "/css/flex/flex" },
           { text: "重排", link: "/css/relayout/relayout" },
