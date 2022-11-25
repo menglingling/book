@@ -27,6 +27,7 @@ export default {
       {
         text: "css",
         items: [
+          { text: "CSS选择器", link: "/css/selector/selector" },
           { text: "BFC", link: "/css/bfc/bfc" },
           { text: "居中", link: "/css/center/center" },
           { text: "文本溢出", link: "/css/textOverflow/textOverflow" },
