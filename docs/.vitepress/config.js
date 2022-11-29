@@ -50,6 +50,7 @@ export default {
           },
           { text: "闭包", link: "/javascript/closure" },
           { text: "作用域", link: "/javascript/scope" },
+          { text: "this", link: "/javascript/this/this" },
           { text: "原型", link: "/javascript/prototype" },
           { text: "JS创建对象的几种模式", link: "/javascript/createObj" },
           { text: "继承的几种方式", link: "/javascript/inherit" },
