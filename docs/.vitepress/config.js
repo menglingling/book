@@ -39,6 +39,11 @@ export default {
       {
         text: "javascript",
         items: [
+          {
+            text: "执行上下文",
+            link: "/javascript/execution_context/execution_context",
+          },
+          { text: "JS中的this", link: "/javascript/this/this" },
           { text: "数据类型", link: "/javascript/data_type" },
           { text: "数组常用方法", link: "/javascript/array" },
           { text: "字符串常用方法", link: "/javascript/string" },
@@ -50,7 +55,7 @@ export default {
           },
           { text: "闭包", link: "/javascript/closure" },
           { text: "作用域", link: "/javascript/scope" },
-          { text: "this", link: "/javascript/this/this" },
+
           { text: "原型", link: "/javascript/prototype" },
           { text: "JS创建对象的几种模式", link: "/javascript/createObj" },
           { text: "继承的几种方式", link: "/javascript/inherit" },
