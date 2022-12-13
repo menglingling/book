@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.6b17e532.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/reflect/reflect.md"}'),a={name:"javascript/reflect/reflect.md"};function c(s,o,n,p,f,i){return r(),t("div")}const d=e(a,[["render",c]]);export{_ as __pageData,d as default};
