@@ -1,43 +1,34 @@
 # 执行上下文
 
-所有 JavaScript 代码都需要在某种环境中托管运行。在大多数情况下，网络浏览器就是这个环境。
+相关概念：
 
-## 一些概念
+- paster:语法解析器。检测代码是否符合语法和初步了解代码想做什么。
+- JS engine:JS 引擎。浏览器中内置，例如 google 是 v8。将 Javascript 转换成二进制指令。
+- variable hoisting:变量提升。函数声明和 var 定义的变量上升到环境顶端，并初始化成 undefined。let const 声明的变量会提升到顶端，但是不会初始化 undefined 值，所以不可用。
+- lexical scope:词法作用域。定义在函数内部的函数可以访问外部函数的代码，外部函数无法访问内部函数的代码。
+- this: JavaScript this 关键字指的是 Execution Context 所属的范围。
 
-- context :译为 上下文||环境|| 背景来龙去脉
-- 编译器: 逐行读取代码的程序。它了解代码如何匹配编程语言所定义的语法，以及代码应该做什么。（检测是否符合语法，理解代码主要意思）
-- JavaScript 引擎：JavaScript 引擎是一个计算机程序，它接收 JavaScript 源代码并将其编译成 CPU 可以理解的二进制指令（机器码）。 （将程序翻译成机器能识别的指令）
-  JavaScript 引擎通常是由浏览器供应商开发的，每一个主流浏览器都有一个自己开发的引擎。如：谷歌 Chrome 浏览器的 V8 引擎，Firefox 的 SpiderMonkey 和 IE 的 Chakra。
+## 分类
 
-## 执行上下文定义
+JS 引擎 receive Javascript 代码，就会创建环境，最开始默认创建一个全局执行上下文，之后每一个函数调用都会创建函数执行上下文。
 
-浏览器的 JavaScript 引擎会创造一个特殊的环境来处理这些 JavaScript 代码的转换和执行。这个特殊的环境被称为执行上下文。
+- GEC 全局执行上下文。包含不在函数内的所有变量和函数声明。
+- FEC 函数执行上下文。包含定义在函数内部的代码。
 
-执行上下文包含当前正在运行的代码和有助于其执行的所有内容。
+## 创建阶段
 
-在执行上下文运行期间，编译器解析代码，内存存储变量和函数，可执行的字节码生成后，代码执行。
+- 创建 Variable Object (VO)。这一阶段发生了变量提升。
+- 创建作用于链。这一阶段遵循词法作用域规则。
+- 给 this 设置值。作用域链创建完就会初始化 this 值。在全局执行上下文中，this 为 window。
 
-## 执行上下文分类
+## 执行阶段
 
-JavaScript 中有两种执行上下文：
+Execution Stack：JS 是单线程语言，一个时间内只能执行一个任务。调用堆栈是保证任务有序运行的一种方式。
 
-- 全局执行上下文（GEC）
-- 函数执行上下文（FEC）
+全局执行上下文第一个进入 stack,当遇到函数时，函数执行上下文被加到堆栈顶部，全局执行上下文会被压到底部。
 
-每当 JavaScript 引擎接收到脚本文件时，它首先会创建一个默认的执行上下文，称为 全局执行上下文 (GEC)。
-
-每**当函数被调用时**，JavaScript 引擎就会在 GEC 内部创建另一种执行上下文，称为函数执行上下文（FEC），并在 FEC 中评估和执行函数中的代码。
-
-## 执行上下文创建过程
-
-执行上下文（GEC 或 FEC）的创建分为两个阶段：
-
-- 创建阶段
-- 执行阶段
-
-在创建阶段，执行上下文首先与执行上下文对象（ECO）相关联。
-执行上下文对象存储了许多重要的数据，执行上下文中的代码在运行时会使用这些数据。
+堆栈的顶部的执行上下文称为活动上下文，当活动上下文的代码执行完后，这个执行上下文会被弹出，下面一个执行上下文位置就到了顶部，变成当前的活动下下文。
 
 ## 参考文档
 
-[https://www.freecodecamp.org/chinese/news/execution-context-how-javascript-works-behind-the-scenes/](https://www.freecodecamp.org/chinese/news/execution-context-how-javascript-works-behind-the-scenes/)
+[JavaScript Execution Context – How JS Works Behind The Scenes](https://www.freecodecamp.org/news/execution-context-how-javascript-works-behind-the-scenes/)
