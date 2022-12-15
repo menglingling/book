@@ -1,9 +1,9 @@
-# 221213
+# summary
 
 ## collection
 
 paster 解析器
-a mechanism that determine 是一种机制，决定了...
+a mechanism that determine 是一种机制，确定了...
 variable Hoisting 变量提升
 lexical scoping 词法作用域
 encounter 遇见；邂逅

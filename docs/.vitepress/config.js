@@ -40,6 +40,10 @@ export default {
         text: "javascript",
         items: [
           {
+            text: "dom事件",
+            link: "/javascript/event/event",
+          },
+          {
             text: "执行上下文",
             link: "/javascript/execution_context/execution_context",
           },
