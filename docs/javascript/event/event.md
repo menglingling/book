@@ -1,4 +1,4 @@
-# js 中的 事件
+# 浏览器的 event
 
 ## 基本概念
 
@@ -58,7 +58,9 @@ document.getElementById("input").addEventListener(
 
 由于 Html 是超文本标记组成的，标记会层层嵌套（我们写代码的时候总是这样的）。随便在 html 触发一个事件，例如 click 一下页面。当 click 的时候，默认情况下，事件除了会在当前点击的这层标记上触发，还会向上或向下传播并触发相应的事件处理程序（如果添加了的话）。**标准事件模型规定了事件的传播方向是先捕获，到达目标事件后，再向上冒泡。即事件流的三个阶段。**
 
-写代码的时候大多数情况用的是冒泡。
+有个 event.eventPhase 属性可以获取事件当前的阶段。使用了 eventPhase，返回一个代表当前执行阶段的整数值。1 为捕获阶段、2 为事件对象触发阶段、3 为冒泡阶段。
+
+写代码的时候大多数情况用的是冒泡阶段执行事件处理程序。
 
 这里结合 addEventListener 来讲下实际应用中**事件处理程序的执行顺序**：
 
@@ -181,3 +183,9 @@ document.getElementById("son").addEventListener("click", (event) => {
   console.log("son3");
 });
 ```
+
+## 参考文档
+
+[Browser Events Explained in Plain English](https://www.freecodecamp.org/news/javascript-events-explained-in-simple-english/)
+
+[What Is Event Bubbling in JavaScript? Event Propagation Explained](https://www.sitepoint.com/event-bubbling-javascript/)

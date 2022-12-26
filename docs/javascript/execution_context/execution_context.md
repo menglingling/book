@@ -7,6 +7,7 @@
 - variable hoisting:变量提升。函数声明和 var 定义的变量上升到环境顶端，并初始化成 undefined。let const 声明的变量会提升到顶端，但是不会初始化 undefined 值，所以不可用。
 - lexical scope:词法作用域。定义在函数内部的函数可以访问外部函数的代码，外部函数无法访问内部函数的代码。
 - this: JavaScript this 关键字指的是 Execution Context 所属的范围。
+- call stack : 调用堆栈。一种记录当前代码执行位置的数据结构。
 
 ## 分类
 

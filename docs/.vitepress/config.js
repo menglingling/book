@@ -40,7 +40,11 @@ export default {
         text: "javascript",
         items: [
           {
-            text: "dom事件",
+            text: "事件循环相关",
+            link: "/javascript/event_loop/event_loop",
+          },
+          {
+            text: "浏览器的 event",
             link: "/javascript/event/event",
           },
           {
