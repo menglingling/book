@@ -19,9 +19,21 @@
   b(); //a=1;
   ```
 
+  ```javascript
+  var nodes = document.getElementByTagName("div");
+  for (var i = 0, length = nodes.length; i < length; i++) {
+    (function (j) {
+      nodes[j].onclick = function () {
+        console.log(j);
+      };
+    })(i);
+  }
+  ```
+
   ## 使用场景
 
-  - 模拟私有变量，私有方法
+  - 模拟私有变量
+  - 延长局部变量的寿命
 
 ## 参考文档
 
