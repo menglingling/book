@@ -2,7 +2,7 @@
 
 ## 相关术语
 
-call stack : 执行栈。又叫 function execution stack。JS 引擎维护的一种栈数据结构（后进先出），用于追踪当前函数的执行。函数一旦开始运行就会被加入到执行栈中，执行完毕后，会被弹出。
+call stack : 执行栈。又叫 function execution stack。JS 引擎维护的一种栈数据结构（先进后出），用于追踪当前函数的执行。函数一旦开始运行就会被加入到执行栈中，执行完毕后，会被弹出。
 
 callback queue: 回调队列。又叫 task queue，或者 macro task。JS 引擎维护的一种队列数据结构（先进先出），用于临时存储需要异步执行的函数。主要是 WebAPI BroserAPI 中的 如 setTimeOut event。
 
