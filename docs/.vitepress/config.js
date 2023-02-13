@@ -40,6 +40,10 @@ export default {
         text: "javascript",
         items: [
           {
+            text: "高阶函数",
+            link: "/javascript/higherOrderFunction/higherOrderFunction",
+          },
+          {
             text: "事件循环相关",
             link: "/javascript/event_loop/event_loop",
           },
