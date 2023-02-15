@@ -40,7 +40,7 @@ export default {
         text: "javascript",
         items: [
           {
-            text: "高阶函数",
+            text: "防抖函数",
             link: "/javascript/debounce/debounce",
           },
           {
