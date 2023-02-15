@@ -41,6 +41,10 @@ export default {
         items: [
           {
             text: "高阶函数",
+            link: "/javascript/debounce/debounce",
+          },
+          {
+            text: "高阶函数",
             link: "/javascript/higherOrderFunction/higherOrderFunction",
           },
           {
