@@ -66,7 +66,11 @@ const filterFunc = (data) => {
   console.log(`根据${data}查询list`);
 };
 
-const searchFunc =_debounce(filterFunc(a)}, 3000)
+const fn = _debounce(filterFunc, 3000);
+const searchFunc = () => {
+  const queryData = document.querySelector("input").value;
+  fn(queryData);
+};
 
 //停止输入后调用查询方法
 document.querySelector("input").addEventListener("keyup", searchFunc);
