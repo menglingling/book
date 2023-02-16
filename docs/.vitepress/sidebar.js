@@ -22,7 +22,7 @@ export default [
     text: "javascript",
     items: [
       {
-        text: "截流函数",
+        text: "节流函数",
         link: "/javascript/throttle/throttle",
       },
       {
