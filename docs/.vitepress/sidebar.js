@@ -22,6 +22,10 @@ export default [
     text: "javascript",
     items: [
       {
+        text: "截流函数",
+        link: "/javascript/throttle/throttle",
+      },
+      {
         text: "防抖函数",
         link: "/javascript/debounce/debounce",
       },
