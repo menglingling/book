@@ -12,6 +12,9 @@
 
 ### 原理版
 
+每次创建任务前都要检查之前有没有一个任务在等待执行，如果有就不创建新的任务。
+在等待执行的任务执行完毕后告诉函数没有任务了。
+
 ```javascript
 let hasOneTask = false;
 const throttle = (func, wait) => {
