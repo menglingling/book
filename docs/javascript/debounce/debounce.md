@@ -1,6 +1,6 @@
 # 防抖
 
-## 基本定义
+## What
 
 一种 web 优化性能技术。用于控制函数的执行频率。
 
@@ -8,7 +8,12 @@
 
 使用防抖技术后，多次触发事件，时间间隔少于 N 秒函数不执行，时间间隔大于 N 秒，只在最后一次事件触发 N 秒后执行函数。
 
-- 原理版
+## Hao
+
+### 原理版
+
+每次创建任务前都要把前面创建的任务全部清空
+保证只有最后的一个任务在等待执行
 
 ```javascript
 let timer = null;
@@ -29,7 +34,7 @@ const searchFunc = () => {
 document.querySelector("input").addEventListener("keyup", searchFunc);
 ```
 
-- 优化版
+### 优化版
 
 ```javascript
 //加入闭包，延长timer的生命周期，也使timer 的作用域从全局环境中变成_debounce的私有变量
@@ -99,3 +104,7 @@ const searchFunc = _debounce(() => {
 //停止输入后调用查询方法
 document.querySelector("input").addEventListener("keyup", searchFunc);
 ```
+
+## 参考文档
+
+[https://www.freecodecamp.org/news/javascript-debounce-example/](https://www.freecodecamp.org/news/javascript-debounce-example/)
