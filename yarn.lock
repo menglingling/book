@@ -666,7 +666,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "book@workspace:."
   dependencies:
-    vitepress: ^1.0.0-alpha.27
+    vitepress: ^v1.0.0-alpha.46
     vue: ^3.2.41
   languageName: unknown
   linkType: soft
@@ -1854,7 +1854,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitepress@npm:^1.0.0-alpha.27":
+"vitepress@npm:^v1.0.0-alpha.46":
   version: 1.0.0-draft.8
   resolution: "vitepress@npm:1.0.0-draft.8"
   dependencies:

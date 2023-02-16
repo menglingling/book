@@ -7,7 +7,7 @@
   "name": "book",
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.27",
+    "vitepress": "^v1.0.0-alpha.46",
     "vue": "^3.2.41"
   }
 }
