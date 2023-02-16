@@ -10,6 +10,7 @@ export default {
     author: "ML",
     outline: [2, 6],
     markdown: {
+      theme: "material-palenight",
       lineNumbers: true, //显示代码行数
     },
     lastUpdatedText: "最近更新时间", //最后更新时间文本

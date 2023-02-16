@@ -49,3 +49,55 @@ const searchFunc = _debounce(filterFunc, 3000);
 //停止输入后调用查询方法
 document.querySelector("input").addEventListener("keyup", searchFunc);
 ```
+
+```javascript
+//加入传参
+const _debounce = (executeFunc, wait) => {
+  let timer = null;
+  return (data) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      executeFunc(data);
+    }, wait);
+  };
+};
+
+const filterFunc = (data) => {
+  console.log(`根据${data}查询list`);
+};
+
+const fn = _debounce(filterFunc, 3000);
+const searchFunc = () => {
+  const queryData = document.querySelector("input").value;
+  fn(queryData);
+};
+
+//停止输入后调用查询方法
+document.querySelector("input").addEventListener("keyup", searchFunc);
+```
+
+```javascript
+//传多个参数
+const _debounce = (executeFunc, wait) => {
+  let timer = null;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      executeFunc.apply(this, args);
+    }, wait);
+  };
+};
+
+const filterFunc = (data) => {
+  console.log(`根据${data}查询list`);
+};
+
+const fn = _debounce(filterFunc, 3000);
+const searchFunc = () => {
+  const queryData = document.querySelector("input").value;
+  fn(queryData);
+};
+
+//停止输入后调用查询方法
+document.querySelector("input").addEventListener("keyup", searchFunc);
+```

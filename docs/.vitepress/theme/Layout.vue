@@ -9,30 +9,47 @@ const { frontmatter } = useData();
 
 <template>
   <Layout>
-    <template #doc-footer-before> doc-footer-before </template>
-    <template #doc-before> doc-before </template>
-    <template #doc-after> doc-after </template>
-    <template #aside-top> aside-top </template>
-    <template #aside-bottom>aside-bottom </template>
-    <template #aside-outline-before> aside-outline-before </template>
-    <template #aside-outline-after> aside-outline-after </template>
-    <template #aside-ads-before> aside-ads-before </template>
-    <template #side-ads-after> side-ads-after</template>
-    <!-- <span>
-        🔗
-        <span class="page-info" v-for="item in frontmatter.tags" :key="item">{{
-          item
-        }}</span>
-      </span>
-      <span class="page-info">✍️{{ frontmatter.author }}</span>
-      <span class="page-info">🕐{{ frontmatter.date }}</span> -->
+    <!-- <template #doc-before
+      ><div class="page-first-time">
+        首次发布时间：{{ toDate(frontmatter.date) }}
+      </div>
+    </template> -->
   </Layout>
 </template>
-
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    author: {
+      type: String,
+      required: true,
+    },
+    date: {
+      type: String,
+      required: true,
+    },
+  },
+  methods: {
+    toDate(_date) {
+      const date = new Date(_date);
+      //日期
+      const DD = String(date.getDate()).padStart(2, "0"); // 获取日
+      const MM = String(date.getMonth() + 1).padStart(2, "0"); //获取月份，1 月为 0
+      const yyyy = date.getFullYear(); // 获取年
+      return `${yyyy}-${MM}-${DD}`;
+    },
+  },
+};
+</script>
 <style>
-.page-info {
-  font-size: 13px;
-  color: #7f7f7f;
-  margin-right: 10px;
+.page-first-time {
+  margin-bottom: 30px;
+  line-height: 32px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
 }
 </style>
