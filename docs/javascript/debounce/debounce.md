@@ -66,24 +66,20 @@ const filterFunc = (data) => {
   console.log(`根据${data}查询list`);
 };
 
-const fn = _debounce(filterFunc, 3000);
-const searchFunc = () => {
-  const queryData = document.querySelector("input").value;
-  fn(queryData);
-};
+const searchFunc =_debounce(filterFunc(a)}, 3000)
 
 //停止输入后调用查询方法
 document.querySelector("input").addEventListener("keyup", searchFunc);
 ```
 
 ```javascript
-//传多个参数
+//优化
 const _debounce = (executeFunc, wait) => {
   let timer = null;
-  return (...args) => {
+  return (data) => {
     clearTimeout(timer);
     timer = setTimeout(() => {
-      executeFunc.apply(this, args);
+      executeFunc(data);
     }, wait);
   };
 };
@@ -92,11 +88,9 @@ const filterFunc = (data) => {
   console.log(`根据${data}查询list`);
 };
 
-const fn = _debounce(filterFunc, 3000);
-const searchFunc = () => {
-  const queryData = document.querySelector("input").value;
-  fn(queryData);
-};
+const searchFunc = _debounce(() => {
+  filterFunc(document.querySelector("input").value);
+}, 3000);
 
 //停止输入后调用查询方法
 document.querySelector("input").addEventListener("keyup", searchFunc);
