@@ -72,7 +72,7 @@ export default [
   {
     text: "designPatterns",
     items: [
-      { text: "单例模式", link: "/singleton/singleton" },
+      { text: "单例模式", link: "/designPatterns/singleton/singleton" },
       { text: "迭代器模式", link: "/designPatterns/Iterator" },
       { text: "代理模式", link: "/designPatterns/proxy" },
     ],
