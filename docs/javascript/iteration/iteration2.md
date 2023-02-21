@@ -21,8 +21,74 @@ Array,Map,Set 是可以枚举的，Javascript 提供了内置的 for... of 来�
 - iterable :可迭代对象。普通对象实现了一个 key 叫做 Symbol.iterator 的方法，这个方法返回迭代器 iterator。
 - iterator :本身也是一个对象，包含一个叫 next 的函数的。next 函数 返回 value 和 done。value 是下一个可迭代对象。done 是一个表示整个迭代是否完成的标志。
 
+一般的 iterable 又叫做可迭代协议。
+
+iterator 又叫做迭代器协议。
+
+可以通过 arr[Symbol.iterator] 来检查是否实现了迭代器函数。如果值不是 undefined,那么就证明已经实现了迭代器函数。
+
+### 根据协议手写个简单的迭代器
+
+虽然没啥意义，但是完全符合迭代协议。
+
+```javascript
+const obj = {
+  [Symbol.iterator]: () => {
+    return {
+      next() {
+        return {
+          done: true,
+          value: 123,
+        };
+      },
+    };
+  },
+};
+
+const iterator = obj[Symbol.iterator]();
+console.log(iterator.next());
+// {
+//     "done": true,
+//     "value": 123
+// }
+```
+
+红皮书的 demo
+
+```javascript
+class Counter {
+  constructor(limit) {
+    this.limit = limit;
+  }
+  [Symbol.iterator]() {
+    let count = 1,
+      limit = this.limit;
+    return {
+      next() {
+        if (count <= limit) {
+          return {
+            done: false,
+            value: count++,
+          };
+        } else {
+          return {
+            done: true,
+            value: undefined,
+          };
+        }
+      },
+    };
+  }
+}
+
+const counter = new Counter(3);
+for (let item of counter) {
+  console.log(item);
+}
+```
+
 ## 参考文档
 
 [Demystifying ES6 Iterables & Iterators](https://www.freecodecamp.org/news/demystifying-es6-iterables-iterators-4bdd0b084082/)
-
+[ES6 Iterators in Depth](https://ponyfoo.com/articles/es6-iterators-in-depth)
 [迭代器红皮书摘抄](https://menglingling.github.io/book/javascript/iteration/iteration)
