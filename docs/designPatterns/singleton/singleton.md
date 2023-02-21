@@ -2,29 +2,38 @@
 
 ## What
 
-定义：一个类只需要一个实例，能够全局访问。
-
-javascript 中指的是：只需要一个的对象。
+目的：一个类只需要一个实例，能够全局访问。
 
 javascript 中 比如浏览器的 window 对象。我们也会拿全局变量当作单例来使用。
 
 ## How
 
-### Code 实现 保证对象只有一个
+### Code 实现，保证对象只有一个
 
-```javascript
-function fn() {
-  const instance = null;
-  if (!instance) {
-    instance = new CreateInstance();
-  }
-  return instance;
-}
+```javascript{1-9}
+const singleton = () => {
+  let instance = null;
+  return (data) => {
+    if (!instance) {
+      instance = { ...data };
+    }
+    return instance;
+  };
+};
+
+//代理
+const ProxyFn = singleton();
+
+const first = ProxyFn({ a: 1 });
+const second = ProxyFn({ b: 1 });
+console.log(first == second);
 ```
 
 ### 惰性单例
 
-只在需要的时候才创建对象实例。
+只在需要的时候才创建对象，并且只创建一个。
+
+下面以打开登录对话框为例。
 
 ```javascript
 const getSingleton = (fn) => {

@@ -13,8 +13,8 @@ function createPerson(name, age, job) {
   };
   return o;
 }
-let person1 = createPerson('Nicholas', 29, 'Software Engineer');
-let person2 = createPerson('Greg', 27, 'Doctor');
+let person1 = createPerson("Nicholas", 29, "Software Engineer");
+let person2 = createPerson("Greg", 27, "Doctor");
 ```
 
 - 优点：
@@ -33,8 +33,8 @@ function Person(name, age, job) {
     console.log(this.name);
   };
 }
-let person1 = new Person('Nicholas', 29, 'Software Engineer');
-let person2 = new Person('Greg', 27, 'Doctor');
+let person1 = new Person("Nicholas", 29, "Software Engineer");
+let person2 = new Person("Greg", 27, "Doctor");
 person1.sayName(); // Nicholas
 person2.sayName(); // Greg
 /////////
@@ -54,9 +54,9 @@ console.log(person2 instanceof Person); // true
 
 ```javascript
 let Person = function () {};
-Person.prototype.name = 'Nicholas';
+Person.prototype.name = "Nicholas";
 Person.prototype.age = 29;
-Person.prototype.job = 'Software Engineer';
+Person.prototype.job = "Software Engineer";
 Person.prototype.sayName = function () {
   console.log(this.name);
 };
@@ -76,7 +76,7 @@ console.log(Object.getPrototypeOf(person1).name); // "Nicholas"
 Object.setPrototypeOf(person, { height: 1.5 });
 let obj = Object.create({});
 /////hasOwnProperty()方法用于确定某个属性是在实例上还是在原型对象上
-console.log(person1.hasOwnProperty('name')); // false
+console.log(person1.hasOwnProperty("name")); // false
 ```
 
 - 优点：
@@ -90,9 +90,9 @@ function Person() {}
 let friend = new Person();
 Person.prototype = {
   constructor: Person,
-  name: 'Nicholas',
+  name: "Nicholas",
   age: 29,
-  job: 'Software Engineer',
+  job: "Software Engineer",
   sayName() {
     console.log(this.name);
   },
