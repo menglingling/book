@@ -90,5 +90,7 @@ for (let item of counter) {
 ## 参考文档
 
 [Demystifying ES6 Iterables & Iterators](https://www.freecodecamp.org/news/demystifying-es6-iterables-iterators-4bdd0b084082/)
+
 [ES6 Iterators in Depth](https://ponyfoo.com/articles/es6-iterators-in-depth)
+
 [迭代器红皮书摘抄](https://menglingling.github.io/book/javascript/iteration/iteration)
