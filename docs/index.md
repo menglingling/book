@@ -6,5 +6,4 @@
 ## 221010
 
 - :sunflower: complete
-
-[Article 1](/designPatterns/singleton/singleton)
+<!-- [Article 1](/designPatterns/singleton/singleton) -->

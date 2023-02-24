@@ -4,7 +4,7 @@ export default [
     items: [{ text: "javascript", link: "/javascript/data_type" }],
   },
   {
-    text: "other",
-    items: [{ text: "other", link: "/other/git" }],
+    text: "hobby",
+    items: [{ text: "english", link: "/english/index" }],
   },
 ];

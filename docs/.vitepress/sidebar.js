@@ -88,6 +88,7 @@ export default [
   {
     text: "designPatterns",
     items: [
+      { text: "发布订阅模式", link: "/designPatterns/observer/observer" },
       { text: "策略模式", link: "/designPatterns/strategies/strategies" },
       { text: "单例模式", link: "/designPatterns/singleton/singleton" },
       { text: "迭代器模式", link: "/designPatterns/Iterator" },
