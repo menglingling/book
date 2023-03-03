@@ -19,6 +19,10 @@ export default [
     ],
   },
   {
+    text: "react",
+    items: [{ text: "demo", link: "/react/demo" }],
+  },
+  {
     text: "javascript",
     items: [
       { text: "迭代器", link: "/javascript/iteration/iteration2" },
