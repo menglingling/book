@@ -1,0 +1,1 @@
+import{_ as s,c as a,o,a as n}from"./app.155f4677.js";const A=JSON.parse('{"title":"Nice colors","description":"","frontmatter":{},"headers":[],"relativePath":"css/color/color.md","lastUpdated":1677844806000}'),l={name:"css/color/color.md"},e=n("",4),p=[e];function r(t,c,D,i,C,y){return o(),a("div",null,p)}const d=s(l,[["render",r]]);export{A as __pageData,d as default};
