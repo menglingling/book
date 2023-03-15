@@ -22,6 +22,8 @@
 
 ### 一般现在时
 
+主语+do（肯定句省略了 do）+动词原形+其他
+
 含义：客观事实/存在状态/习惯动作（一般现在时并非表现在）
 
 - I like tea
@@ -42,13 +44,60 @@ She does't like tea
 - 3. 元音字母加 y 结尾，直接 加 s
      buy-buys
 
+### 一般过去时
+
+主语+ was/were/did(动词的过去式)+ 其他
+
+- 过去的状态
+  am/is -> was
+  are -> were
+- 过去的动作
+  do/dose ->did
+- I was a teacher
+- She packed her bag yesterday.
+- Did she pack her bag yesterday?
+
+### 现在完成时
+
+主+have done(动词过去分词)+其他
+
+用法：
+
+1. 言之过去，意在当下
+2. 一个动作 done 或者状态 been 从过去持续或者重复到现在
+
+- She has had lunch
+- I have had some food,so I dont't need eat.
+- I've already had lunch.
+- She has packed her bag.
+- Has she packed her bag?
+
+- I have lived in beijing for 10 years.
+- I have been Beijing for 10 years.
+- have you been Beijing for 10 years?
+
+**have been/gone to 区别**
+
+have been to 去了但是已经回来，翻译成 去过
+have gone to 去了但是还没回来，翻译成 去了
+
+- I have been to bank.
+- She has gone to Beijing.
+
+## 否定疑问句
+
+Are't you lucky?
+Don't you like tea?
+
 ## 固定结构
 
-There be + ...
-There is an apple on the table.
-Are there any apples on the table?
-There is some food in the box.
-Is there any water here?
+- There be + ...
+  There is an apple on the table.
+  Are there any apples on the table?
+  There is some food in the box.
+  Is there any water here?
+
+- I have get a lot of money.=I have a lot of money.
 
 ## 情态动词
 
@@ -70,3 +119,11 @@ Is there any water here?
 - I must eat some food.
 - Must I do the housework?
 - What must she do?
+
+### feel / look / sound / smell / taste 感官动词用形容词修饰
+
+- She feels great
+- look He looks ill
+- sound It dose‘t sound good.
+- smell Do i smell bad?
+- taste It tasets terrible.

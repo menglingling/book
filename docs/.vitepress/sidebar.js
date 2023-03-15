@@ -20,7 +20,10 @@ export default [
   },
   {
     text: "react",
-    items: [{ text: "demo", link: "/react/demo" }],
+    items: [
+      { text: "demo", link: "/react/demo" },
+      { text: "create", link: "/react/create" },
+    ],
   },
   {
     text: "javascript",
