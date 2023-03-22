@@ -84,20 +84,114 @@ have gone to 去了但是还没回来，翻译成 去了
 - I have been to bank.
 - She has gone to Beijing.
 
+## 直接引语 间接引语
+
+间接引语 是个 宾语从句
+
+- He says,"I can do it".
+- He says (that) he can do it.
+
+## adj 比较级 & 最高级
+
+构成
+
+1. 单音节形容词 + er/est
+
+- small -> smaller -> smallest
+- new -> newer -> newest
+- old -> older -> oldest
+
+2.  单词以 e 结尾 + r/st
+
+- large -> larger -> largest
+- nice -> nicer -> nicest
+
+3.  辅音字母 + y 结尾的，改 y 为 i ，加 er,est
+
+- pretty -> prettier -> prettiest
+- easy -> easier -> easiest
+- heavy -> heavier -> heaviest
+
+4. 辅+ 元+ 辅 ，双写末尾辅音字母，加 er,est
+
+- big -> bigger -> biggest
+- hot -> hotter ->hottest
+- fat -> fatter ->fattest
+
+5. 多音节形容词
+   前加 more / most
+   前加 less / least 表较少
+
+- the most beautiful
+- the least expensive 不是那么贵
+
+6. 不规则举例
+
+- many/much more most
+- little less least
+- good better best
+- bad worse worst
+
+主语 + be + adj.er + than + 比较对象
+
+- He is older than me
+
+主语 + be + the + adj.est + n + 范围
+
+- My mom is the kindest person in the world.
+
+主语 + be + the + adj.est + n + I have ever met/seen/known
+
+- This is the craziest thing I've ever done
+
+## little few
+
+a little + un 肯定含义
+little + un 否定含义
+
+a few + cn 肯定含义
+few + cn 否定含义
+I've got a few friends,so I'm not lonely.
+I've got few friends.I'm sad and lonely.
+
 ## 否定疑问句
 
 Are't you lucky?
 Don't you like tea?
 
+## not any/a/an = no+n = none
+
+- I have not got any time=I have got no time.
+- I have't got any money= I have no money.
+- There aren't any books = The are no books.
+- I haven't got any beer.= I have got no beer.= I have got none.
+
 ## 固定结构
 
-- There be + ...
-  There is an apple on the table.
-  Are there any apples on the table?
-  There is some food in the box.
-  Is there any water here?
+### There be + ...
 
-- I have get a lot of money.=I have a lot of money.
+- There is an apple on the table.
+- Are there any apples on the table?
+- There is some food in the box.
+- Is there any water here?
+
+### I have get a lot of money.=I have a lot of money.
+
+### adj+enough
+
+This is too big.
+This is big enough.
+
+### want to do sth. = wanna do sth.
+
+### so neither
+
+肯定：so + 助动词/情态动词/be + 主语
+否定：neither + 助动词/情态动词/be + 主语
+(这里原句哪个词变一般疑问句提前，那个词就放中间)
+
+- I have a happy family. So do I.
+- I don't want to work. neither do I.
 
 ## 情态动词
 
@@ -120,10 +214,34 @@ Don't you like tea?
 - Must I do the housework?
 - What must she do?
 
-### feel / look / sound / smell / taste 感官动词用形容词修饰
+### will
+
+主语+ will + do sth 将要做什么
+
+## feel / look / sound / smell / taste 感官动词用形容词修饰
 
 - She feels great
 - look He looks ill
 - sound It dose‘t sound good.
 - smell Do i smell bad?
 - taste It tasets terrible.
+
+## 短语
+
+### had better not do
+
+最好怎么样
+You had better sleep.
+She'd better see a doctor.
+He had better not eat any food.
+
+### as ... as
+
+The blue car is not as clean as the blue red car. 蓝车不如红车干净（ 蓝车 不干净 跟红车比）
+
+## 从句
+
+### 宾语从句
+
+主语+动词+（that）+句子
+I think that you are right.
