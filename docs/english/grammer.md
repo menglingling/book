@@ -84,6 +84,24 @@ have gone to 去了但是还没回来，翻译成 去了
 - I have been to bank.
 - She has gone to Beijing.
 
+### 过去完成时
+
+had done
+had not done
+用法：
+强调过去某一动作发生在另一动作或状态之前.(过去的过去)
+经常与 after before 连用
+
+1.  after A , B = B after A
+
+- After I had sold the old car,I bought a new one.
+- I bought a new car after I had sold the old one.
+
+2. Before B,A=A before B.
+
+- Before they ate the dinner,they had washed their hands.
+- They had washed their hands before they ate the dinner.
+
 ## 直接引语 间接引语
 
 间接引语 是个 宾语从句
@@ -179,8 +197,8 @@ Don't you like tea?
 
 ### adj+enough
 
-This is too big.
-This is big enough.
+- This is too big.
+- This is big enough.
 
 ### want to do sth. = wanna do sth.
 
@@ -214,6 +232,20 @@ This is big enough.
 - Must I do the housework?
 - What must she do?
 
+#### must be adj/must be doing
+
+表示确信度高/对现在的肯定推测：一定是
+
+- You must be Leo.
+- They must be drinking tea.
+
+#### can't be adj/can't be doing
+
+表示确信度高/对现在的否定推测：一定不是
+
+- You can't be Leo.
+- They can't be drinking tea.
+
 ### will
 
 主语+ will + do sth 将要做什么
@@ -231,13 +263,35 @@ This is big enough.
 ### had better not do
 
 最好怎么样
-You had better sleep.
-She'd better see a doctor.
-He had better not eat any food.
+
+- You had better sleep.
+- She'd better see a doctor.
+- He had better not eat any food.
 
 ### as ... as
 
-The blue car is not as clean as the blue red car. 蓝车不如红车干净（ 蓝车 不干净 跟红车比）
+- The blue car is not as clean as the blue red car. 蓝车不如红车干净（ 蓝车 不干净 跟红车比）
+
+### have to VS must
+
+have to 客观情况
+must 主观的必须
+必须/不得不
+一般现在时
+
+- I have to leave now.
+- I don't have to leave now.
+- Do you have to leave now.
+- She has to work from 9 to 5.
+
+一般将来时
+
+- I will have to leave tomorrow.
+
+一般过去时
+
+- I had to work for my family when I was 16.
+- I didn't have to work for my family.
 
 ## 从句
 
@@ -245,3 +299,25 @@ The blue car is not as clean as the blue red car. 蓝车不如红车干净（ �
 
 主语+动词+（that）+句子
 I think that you are right.
+
+### 时间（状语）从句
+
+句子作时间
+
+- He was cooking a meal at 10 o'clock.
+- He was cooking a meal (when he was listening to music).
+
+#### when/while 的区别
+
+when + was doing/did
+while + was doing
+
+### 定语从句
+
+作用：确定具体是哪一个，
+定语从句：一个句子作定语。
+修饰人用 who/that
+修饰物用 which/that
+
+- The bread on the table.
+- The guy next to me.
