@@ -9,6 +9,7 @@ export default [
   {
     text: "css",
     items: [
+      { text: "color", link: "/css/color/color" },
       { text: "CSS选择器", link: "/css/selector/selector" },
       { text: "BFC", link: "/css/bfc/bfc" },
       { text: "居中", link: "/css/center/center" },

@@ -108,6 +108,18 @@ had not done
 
 - He says,"I can do it".
 - He says (that) he can do it.
+- She says that she is tired.
+
+时态变化规则：
+
+1. 一般现在时变一般过去时
+2. 现在进行时变过去进行时
+3. 现在完成时 或者 一般过去时 都变成 过去完成时
+4. 一般将来时 变成 过去将来时
+
+- She said that she was tired.
+- He said that he had lost his key.
+- She said that she was going to take a bath.
 
 ## adj 比较级 & 最高级
 
@@ -232,20 +244,6 @@ Don't you like tea?
 - Must I do the housework?
 - What must she do?
 
-#### must be adj/must be doing
-
-表示确信度高/对现在的肯定推测：一定是
-
-- You must be Leo.
-- They must be drinking tea.
-
-#### can't be adj/can't be doing
-
-表示确信度高/对现在的否定推测：一定不是
-
-- You can't be Leo.
-- They can't be drinking tea.
-
 ### will
 
 主语+ will + do sth 将要做什么
@@ -292,6 +290,53 @@ must 主观的必须
 
 - I had to work for my family when I was 16.
 - I didn't have to work for my family.
+
+## 表推测
+
+### must 表示确信度高的肯定推测
+
+对现在的推测：一定是
+must be adj
+must be doing
+
+对过去的推测：当时一定是
+must have been
+must have done
+must have been doing.
+
+- You must be Leo.
+- They must be drinking tea.
+- He must have been tired.
+
+### can't 表示确信度高的否定推测
+
+对现在的否定推测：一定不是
+can't be adj
+can't be doing
+
+- You can't be Leo.
+- They can't be drinking tea.
+
+对过去的否定推测：一定不是
+can't have been
+can't have done
+can't have been doing.
+
+- You can't have been on the bus.
+
+### may/might 表示确信度低的肯定推测：可能是
+
+现在的推测
+may/might be adj/n
+may/might do
+may/might doing
+对过去的推测
+may/might have been adj/n.
+may/might have done
+may/might have been doing
+
+- She may be from China.
+- She may have been a teacher.
 
 ## 从句
 
