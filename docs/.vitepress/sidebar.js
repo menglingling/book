@@ -1,5 +1,9 @@
 export default [
   {
+    text: "review",
+    link: "page/review",
+  },
+  {
     text: "web",
     items: [
       { text: "浏览器如何工作的", link: "/web/browser/browser" },
