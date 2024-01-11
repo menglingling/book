@@ -33,7 +33,7 @@ export default [
   {
     text: "javascript",
     items: [
-      { text: "迭代器", link: "/javascript/iteration/iteration2" },
+      { text: "迭代器", link: "/javascript/iteration/iteration3" },
       {
         text: "对象",
         items: [
