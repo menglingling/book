@@ -1,1 +1,0 @@
-import{_ as i,o as t,c as l,a as e}from"./app.f8c3ade2.js";const m=JSON.parse('{"title":"git 相关","description":"","frontmatter":{},"headers":[],"relativePath":"other/git.md","lastUpdated":1665412112000}'),a={name:"other/git.md"},r=e("",2),o=[r];function g(s,n,c,d,_,h){return t(),l("div",null,o)}const p=i(a,[["render",g]]);export{m as __pageData,p as default};

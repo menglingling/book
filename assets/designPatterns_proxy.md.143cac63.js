@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./app.f8c3ade2.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"designPatterns/proxy.md","lastUpdated":1666687831000}'),r={name:"designPatterns/proxy.md"};function s(o,n,c,p,d,i){return t(),a("div")}const f=e(r,[["render",s]]);export{m as __pageData,f as default};

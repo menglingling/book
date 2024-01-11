@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,a as p}from"./app.c06e2760.js";const B=JSON.parse('{"title":"css 中实用的新特性","description":"","frontmatter":{},"headers":[],"relativePath":"css/new/new.md","lastUpdated":1704969657000}'),l={name:"css/new/new.md"},o=p("",3),e=[o];function t(c,r,D,F,y,i){return n(),a("div",null,e)}const d=s(l,[["render",t]]);export{B as __pageData,d as default};
