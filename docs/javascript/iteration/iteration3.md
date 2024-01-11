@@ -12,15 +12,15 @@
 - **迭代器对象 `iterator`**：大白话就是我们实现的那个方法名叫`Symbol.iterator`的方法调用后生成的对象，这个生成的对象实现了一个方法名叫`next` 的方法，这个 next方法被调用又会返回一个包含当前元素和 done 属性的对象，形如`{done: false,value: 1}`或者`{{ done: true, value: 10 }}`。done 属性是一个布尔值，指示迭代是否完成。
 代码示例：
 ```javascript
-//iterable 有 key为Symbol.iterator的方法
+// iterable 有 key为Symbol.iterator的方法
 const iterable = {
 //实现 key 叫Symbol.iterator的方法
   [Symbol.iterator]: () => {
     return {
     let count = 0,
-    //实现 key 叫next的方法
+    // 实现 key 叫next的方法
       next() {
-      //返回固定格式的包含done 和 value 值 的对象
+      // 返回固定格式的包含done 和 value 值 的对象
         return {
          if (count < 10) {
           return {
