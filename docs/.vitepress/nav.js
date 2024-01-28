@@ -8,6 +8,16 @@ const ignoredDirs = ["page", "public"];
 // 在这里添加你想要忽略的文件名
 const ignoredFiles = ["index.md"];
 
+function getFileHeading(fullPath) {
+  let fileContent = fs.readFileSync(fullPath, "utf-8");
+  // 使用 marked 解析文件然后获取第一个标题
+  // 去掉yaml信息
+  let fileContentWithoutFrontmatter = matter(fileContent).content;
+  let tokens = marked.lexer(fileContentWithoutFrontmatter);
+  let titleToken = tokens.find((token) => token.type === "heading");
+  return titleToken;
+}
+
 function generateNav(itemPath) {
   let items = [];
   let files = fs.readdirSync(itemPath);
@@ -33,11 +43,42 @@ function generateNav(itemPath) {
     let isDirectory = fs.lstatSync(fullPath).isDirectory();
 
     if (isDirectory) {
-      items.push({
-        text: file,
-        //link: `/${path.relative("docs/", fullPath)}`,
-        items: generateNav(fullPath),
+      let directoryFiles = fs.readdirSync(fullPath);
+      let found = false;
+
+      directoryFiles.forEach((innerFile) => {
+        let innerFullPath = path.join(fullPath, innerFile);
+        if (
+          !found &&
+          fs.statSync(innerFullPath).isFile() &&
+          path.extname(innerFile) === ".md"
+        ) {
+          //取文档第一个标题
+          // let titleToken = getFileHeading(fullPath);
+          // let linkText = titleToken
+          //   ? titleToken.text
+          //   : path.basename(file, ".md");
+
+          // linkText = linkText === "README" ? itemPath : linkText;
+
+          items.push({
+            text: file,
+            link: `/${path.relative("docs/", innerFullPath).slice(0, -3)}`,
+            items: generateNav(fullPath),
+          });
+          found = true;
+          return;
+        }
       });
+
+      // 如果在文件夹中没有找到任何 .md 文件
+      if (!found) {
+        items.push({
+          text: file,
+          //link: `/${path.relative("docs/", fullPath)}`,
+          items: generateNav(fullPath),
+        });
+      }
       return;
     }
 
