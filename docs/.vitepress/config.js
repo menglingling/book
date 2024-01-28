@@ -1,5 +1,6 @@
-import mlSidebar from "./sidebar";
-import mlNav from "./nav";
+import sidebarConfig from "./sidebar";
+import navConfig from "./nav";
+
 export default {
   base: "/book/",
   title: "我的小书",
@@ -15,8 +16,8 @@ export default {
     },
     lastUpdatedText: "最近更新时间", //最后更新时间文本
 
-    nav: mlNav,
+    nav: navConfig,
 
-    sidebar: mlSidebar,
+    sidebar: sidebarConfig,
   },
 };
