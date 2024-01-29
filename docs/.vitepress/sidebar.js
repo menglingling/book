@@ -85,5 +85,5 @@ function generateSidebar(itemPath) {
 
 const sidebar = generateSidebar("./docs");
 //fs.writeFileSync("./docs/.vitepress/config.json", JSON.stringify({ nav }));
-console.log({ 输出: JSON.stringify({ sidebar }) });
+//console.log({ 输出: JSON.stringify({ sidebar }) });
 export default sidebar;
