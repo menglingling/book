@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./app.20213b8a.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"Python/安装相关环境.md","lastUpdated":1706520204000}'),o={name:"Python/安装相关环境.md"};function r(n,s,_,c,p,d){return e(),a("div")}const f=t(o,[["render",r]]);export{m as __pageData,f as default};
